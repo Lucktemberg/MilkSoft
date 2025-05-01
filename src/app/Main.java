@@ -1,3 +1,18 @@
+package app;
+
+import controller.CadastrarAnimal;
+import controller.RegistrarAlimentacao;
+import controller.RegistrarOrdenha;
+import controller.RegistrarVacinas;
+import data.ArquivoAlimentacao;
+import data.ArquivoAnimal;
+import data.ArquivoOrdenha;
+import data.ArquivoVacinacao;
+import model.Alimentacao;
+import model.Animal;
+import model.Ordenha;
+import model.Vacinacao;
+
 import javax.swing.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +33,7 @@ public class Main {
 
         String[] opcoes = {
                 "Cadastrar Animal",
-                "Rgistrar Alimentacao",
+                "Registrar Alimentacao",
                 "Registrar Ordenha",
                 "Registrar Vacinacao",
                 "Ver animais",

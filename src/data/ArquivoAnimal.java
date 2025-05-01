@@ -1,3 +1,7 @@
+package data;
+
+import model.Animal;
+
 import javax.swing.*;
 import java.io.*;
 import java.util.ArrayList;

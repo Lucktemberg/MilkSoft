@@ -1,3 +1,5 @@
+package model;
+
 import java.time.LocalDate;
 
 public class Alimentacao {
@@ -47,9 +49,9 @@ public class Alimentacao {
 
     @Override
     public String toString() {
-        return "Animal: " + animal.getNome() +
+        return "Animal: " + animal.getNome() + "\n" +
                 ", Data: " + data +
                 ", Tipo de Alimento: " + tipoAlimento +
-                ", Quantidade: " + quantidadeAlimento + "kg";
+                ", Quantidade: " + quantidadeAlimento + " ";
     }
 }

@@ -1,3 +1,8 @@
+package data;
+
+import model.Animal;
+import model.Ordenha;
+
 import javax.swing.*;
 import java.io.*;
 import java.time.LocalDate;
